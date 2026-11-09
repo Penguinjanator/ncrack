@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> Ncrack was written as a "Google Summer of Code" Project in 2009. While it was useful for some purposes, it is not fully developed or currently maintained. The code has some known and probably unknown security issues. We recommend the [brute force scripts](https://nmap.org/nsedoc/categories/brute.html) included as part of [Nmap's Scripting Engine (NSE)](https://nmap.org/book/nse.html) instead.
+>
+> The source code remains accessible on GitHub strictly for educational and security research purposes. While the Nmap team is not actively developing Ncrack, we will review and merge community-submitted pull requests for critical security fixes.
+
+
+
 # ncrack
 
 Ncrack is a high-speed network authentication cracking tool. It was built to help companies secure their networks by proactively testing all their hosts and networking devices for poor passwords. Security professionals also rely on Ncrack when auditing their clients. Ncrack was designed using a modular approach, a command-line syntax similar to Nmap and a dynamic engine that can adapt its behaviour based on network feedback. It allows for rapid, yet reliable large-scale auditing of multiple hosts.
